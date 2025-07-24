@@ -4,5 +4,9 @@ services:
       context: .
     volumes:
     - ./.env:/var/www/html/.env:ro
+    env_file:
+    - path: ./.env
+    # required for token
+      required: true
     ports:
-      - "9000:8000"
+      - "${APP_PORT:-8000}:8000"
