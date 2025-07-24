@@ -1,0 +1,8 @@
+services:
+  streak-stats:
+    build:
+      context: .
+    volumes:
+    - ./.env:/var/www/html/.env:ro
+    ports:
+      - "9000:8000"
