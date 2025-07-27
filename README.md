@@ -7,5 +7,5 @@
 
 <br>
 <div align="center">
-A docker/podman config for self hosting the <a href="https://github.com/DenverCoder1/github-readme-streak-stats">GitHub Readme Streak Stats</a> project.
+A Docker/Podman config for self hosting the <a href="https://github.com/DenverCoder1/github-readme-streak-stats">GitHub Readme Streak Stats</a> project.
 </div>
